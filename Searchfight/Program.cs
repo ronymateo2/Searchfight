@@ -8,6 +8,7 @@ namespace Searchfight {
             var keywordList = args.ToList();
 
             if(keywordList.Count == 0) {
+
                 Console.WriteLine("Please enter something to search");
                 Console.ReadLine();
                 return;
